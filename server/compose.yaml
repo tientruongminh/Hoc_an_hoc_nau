@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    container_name: haohn-api
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8787:8787" # only nginx on the host reaches it
+    volumes:
+      - haohn-data:/data
+volumes:
+  haohn-data:

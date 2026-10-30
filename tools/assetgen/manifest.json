@@ -1,0 +1,697 @@
+{
+ "styles": {
+  "sprite": "High quality 16-bit pixel art game sprite for a top-down RPG (orthographic view from slightly above, front face visible, NOT isometric), crisp clean dark outlines, soft warm shading, cohesive palette, cozy Vietnamese countryside summer mood.",
+  "scene": "High quality 16-bit pixel art top-down RPG map, orthographic top-down view like a classic farming-sim game: the floor is seen straight from above as a flat rectangle filling the whole image, the back wall is shown flat along the top edge only, furniture shown from slightly above with front faces visible, NOT isometric, no diagonal walls, no perspective, no black void around the room. Cozy rural Vietnam, warm summer afternoon light, detailed but readable, large open walkable floor area, no characters, no people, no text, no UI.",
+  "portrait": "High quality pixel art character portrait bust for a visual-novel dialogue box, 64x64-pixel-art look, chibi-ish expressive anime face, crisp outlines, warm soft shading, Vietnamese character.",
+  "cg": "Beautiful detailed pixel art illustration, cinematic 16-bit cutscene style, warm nostalgic Vietnamese countryside atmosphere, expressive comedic characters, rich lighting, no text.",
+  "icon": "Pixel art game item icon, 32x32 pixel-art look, bold clean outline, centered, single object, soft shading."
+ },
+ "backgrounds": {
+  "none": "",
+  "magenta": "Isolated on a solid flat pure magenta #FF00FF background, no ground shadow, no other objects.",
+  "green": "Isolated on a solid flat pure green #00FF00 background, no ground shadow, no other objects."
+ },
+ "assets": [
+  {
+   "id": "s_kitchen",
+   "kind": "scene",
+   "style": "scene",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Interior of a small rural Vietnamese family kitchen seen from above: red-brown terracotta tile floor, a wood-and-brick cooking counter with a two-burner gas stove and a clay pot along the top wall, a sink with a window, a wooden cupboard with bowls, an electric rice cooker on a shelf, a low wooden table with small plastic stools, a doorway on the right wall leading to a garden, a doorway at the bottom leading to the front room."
+  },
+  {
+   "id": "s_bedroom",
+   "kind": "scene",
+   "style": "scene",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Interior of a Vietnamese teenage boy's small bedroom seen from above: worn wooden plank floor, a single bed with a blue checkered blanket and pillow in the top-left corner, a study desk with books, a desk lamp and an old standing electric fan along the top wall, a window with green wooden shutters on the top wall, a small wooden wardrobe on the right wall, a football poster, a rolled straw mat, a single doorway in the middle of the bottom wall."
+  },
+  {
+   "id": "s_front",
+   "kind": "scene",
+   "style": "scene",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Interior of the front room of a Vietnamese house that is also a small family rice shop (quán cơm bình dân), seen from above: light beige ceramic tile floor, four small square stainless-steel tables each with red and blue plastic stools arranged around them in the lower half, a glass food display cabinet with trays of dishes along the left wall, a family ancestor altar with incense and fruit on the top wall, a wooden bench sofa near the top right, two doorways on the top wall (one at top-left leading to the kitchen, one at top-right leading to a bedroom), a wide open shop entrance with a metal rolling shutter in the middle of the bottom wall, potted plants by the entrance."
+  },
+  {
+   "id": "s_momroom",
+   "kind": "scene",
+   "style": "scene",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Interior of a Vietnamese mother's bedroom seen from above: dark wooden plank floor, a large wooden bed with a white mosquito net and a woven grass mat in the top-left, a tall dark wooden wardrobe cabinet in the top-right corner, a dresser with a round mirror and small items on the top wall, a window with wooden shutters on the left wall, a wall calendar, a sewing basket, a ceiling fan shadow, one doorway in the middle of the bottom wall."
+  },
+  {
+   "id": "s_garden",
+   "kind": "scene",
+   "style": "scene",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Outdoor backyard of a rural Vietnamese house seen from straight above, wide view: on the far left edge the back wall of the house with a wooden back door and a small brick porch; in the middle a large open sunny packed-dirt yard with a few tufts of grass (big empty area for running); along the top edge vegetable beds of scallions, herbs and morning glory; on the far right a bamboo chicken coop area with several straw nests on the ground; a few banana trees and a clay water jar in the corners, a low bamboo fence along the bottom edge."
+  },
+  {
+   "id": "s_ba8",
+   "kind": "scene",
+   "style": "scene",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Outdoor street corner in a Vietnamese village seen from straight above: a narrow concrete alley entrance (đầu ngõ) on the left, the front porch of an old tiled-roof house on the top edge, a small wooden meat stall table in front of the house with fresh pork cuts, a hanging scale and a parasol umbrella, a bougainvillea bush, a parked old bicycle spot, a dirt road running along the bottom edge."
+  },
+  {
+   "id": "s_park",
+   "kind": "scene",
+   "style": "scene",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Outdoor village park during a traditional folk festival, seen from straight above, wide view: brick paved square, a huge banyan tree in the upper left, rows of colorful paper lanterns strung overhead, several food stalls with striped awnings along the top edge, a bamboo swing, a tug-of-war rope on the grass on the right, an open area in the middle with a straw mat where people play the folk board game o an quan, stone benches, red festival banners without text, a road entrance on the bottom-left."
+  },
+  {
+   "id": "s_road",
+   "kind": "scene",
+   "style": "scene",
+   "bg": "none",
+   "aspect": "9:16",
+   "prompt": "Top-down pixel art background for a vertical scrolling bike mini-game: one straight red-dirt countryside road running vertically from the top edge to the bottom edge through the exact center of the image, same width all the way, grassy verges on both sides, green rice paddies on the far left and far right, a few coconut palms, no buildings, no vehicles, no people, no intersections."
+  },
+  {
+   "id": "s_cooking",
+   "kind": "scene",
+   "style": "scene",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Close-up cooking station seen from straight above, for a cooking mini-game: a wooden kitchen counter filling the frame, a gas stove with a black wok in the center, a round wooden cutting board on the left, empty small bowls in a row on the right, a ceramic tile backsplash along the top edge, warm light, no food yet."
+  },
+  {
+   "id": "s_sink",
+   "kind": "scene",
+   "style": "scene",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Close-up of a kitchen sink seen from straight above, for a dish-washing mini-game: a large stainless steel sink basin filling the center with soapy water, a sponge and dish soap bottle on the edge, a dish drying rack on the right, tile counter around it."
+  },
+  {
+   "id": "s_board",
+   "kind": "prop",
+   "style": "scene",
+   "bg": "none",
+   "aspect": "2:1",
+   "prompt": "Top-down view of a traditional Vietnamese o an quan game board drawn with white chalk on a dark worn wooden plank: two rows of five equal square cells in the middle and one large half-circle cell at each end (left and right), completely empty board with no stones, the board fills the whole image."
+  },
+  {
+   "id": "ch_player",
+   "kind": "sheet",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "Pixel art RPG character walking sprite sheet of a Vietnamese teenage boy (17) with short black messy hair, plain white t-shirt, blue shorts and brown flip-flop sandals. Three rows of three figures: row 1 facing the viewer (front view) walking frames, row 2 side view facing right walking frames, row 3 back view walking frames. All figures exactly the same character design, same size, evenly spaced on a grid, not overlapping."
+  },
+  {
+   "id": "ch_mom",
+   "kind": "sheet",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "Pixel art RPG character walking sprite sheet of a Vietnamese mother in her forties with her hair tied in a low bun, wearing a light floral áo bà ba pajama set (purple flowers) and plastic sandals. Three rows of three figures: row 1 facing the viewer (front view) walking frames, row 2 side view facing right walking frames, row 3 back view walking frames. All figures exactly the same character design, same size, evenly spaced on a grid, not overlapping."
+  },
+  {
+   "id": "ch_momcast",
+   "kind": "sheet",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "Pixel art RPG character walking sprite sheet of a Vietnamese mother in her forties with her hair in a low bun, floral purple áo bà ba pajama set, her right arm in a white plaster cast with a sling. Three rows of three figures: row 1 facing the viewer (front view) walking frames, row 2 side view facing right walking frames, row 3 back view walking frames. All figures exactly the same character design, same size, evenly spaced on a grid, not overlapping."
+  },
+  {
+   "id": "ch_dad",
+   "kind": "sheet",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "Pixel art RPG character walking sprite sheet of a cheerful Vietnamese father in his late forties, short hair, small mustache, beige short-sleeve shirt, dark trousers, sandals. Three rows of three figures: row 1 facing the viewer (front view) walking frames, row 2 side view facing right walking frames, row 3 back view walking frames. All figures exactly the same character design, same size, evenly spaced on a grid, not overlapping."
+  },
+  {
+   "id": "ch_ba8",
+   "kind": "sheet",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "Pixel art RPG character walking sprite sheet of a kind chubby old Vietnamese woman in her sixties, grey hair in a bun, brown áo bà ba, black trousers, conical hat in her hand. Three rows of three figures: row 1 facing the viewer (front view) walking frames, row 2 side view facing right walking frames, row 3 back view walking frames. All figures exactly the same character design, same size, evenly spaced on a grid, not overlapping."
+  },
+  {
+   "id": "ch_nam",
+   "kind": "sheet",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "Pixel art RPG character walking sprite sheet of a skinny Vietnamese teenage boy (17), spiky hair, yellow tank top, black shorts, sneakers. Three rows of three figures: row 1 facing the viewer (front view) walking frames, row 2 side view facing right walking frames, row 3 back view walking frames. All figures exactly the same character design, same size, evenly spaced on a grid, not overlapping."
+  },
+  {
+   "id": "ch_thanhnien",
+   "kind": "sheet",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "Pixel art RPG character walking sprite sheet of a cocky Vietnamese young man (20), dyed orange hair, sunglasses on his head, flashy red hawaiian shirt, ripped jeans. Three rows of three figures: row 1 facing the viewer (front view) walking frames, row 2 side view facing right walking frames, row 3 back view walking frames. All figures exactly the same character design, same size, evenly spaced on a grid, not overlapping."
+  },
+  {
+   "id": "ch_crowd1",
+   "kind": "sheet",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "Pixel art RPG character walking sprite sheet of an old Vietnamese man with a white beard, white tank top, grey trousers, holding a fan. Three rows of three figures: row 1 facing the viewer (front view) walking frames, row 2 side view facing right walking frames, row 3 back view walking frames. All figures exactly the same character design, same size, evenly spaced on a grid, not overlapping."
+  },
+  {
+   "id": "ch_crowd2",
+   "kind": "sheet",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "Pixel art RPG character walking sprite sheet of a young Vietnamese woman wearing a conical hat (nón lá) and a pastel blouse. Three rows of three figures: row 1 facing the viewer (front view) walking frames, row 2 side view facing right walking frames, row 3 back view walking frames. All figures exactly the same character design, same size, evenly spaced on a grid, not overlapping."
+  },
+  {
+   "id": "ch_goose",
+   "kind": "sheet",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "Pixel art top-down RPG enemy sprite sheet of an angry white domestic goose with orange beak, comedic fierce eyes. Three rows of three: row 1 walking side view facing right, row 2 attacking with neck stretched forward and beak open honking, row 3 running with wings spread. Same size, evenly spaced grid, not overlapping."
+  },
+  {
+   "id": "ch_bike",
+   "kind": "sheet",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "Pixel art top-down sprite of a Vietnamese teenage boy (short black hair, white t-shirt, blue shorts) riding an old black bicycle, seen from straight above and slightly behind, going up the screen. Row of three frames pedaling animation, plus a fourth frame of him wobbling. Same size, evenly spaced, not overlapping."
+  },
+  {
+   "id": "pt_player",
+   "kind": "portrait",
+   "style": "portrait",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "Character expression sheet, 2 by 2 grid of four head-and-shoulders portraits of the same character: a Vietnamese teenage boy (17) with short black messy hair and a plain white t-shirt. Expressions: top-left neutral calm, top-right shocked wide eyes, bottom-left smug confident grin, bottom-right sad teary sweating. Same framing, same size, evenly spaced, not overlapping.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "pt_mom",
+   "kind": "portrait",
+   "style": "portrait",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "Character expression sheet, 2 by 2 grid of four head-and-shoulders portraits of the same character: a Vietnamese mother in her forties, hair in a low bun, floral purple áo bà ba. Expressions: top-left neutral gentle, top-right in pain wincing, bottom-left furious angry with dark aura, bottom-right warm proud smile. Same framing, same size, evenly spaced, not overlapping.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "pt_dad",
+   "kind": "portrait",
+   "style": "portrait",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "Character expression sheet, 2 by 2 grid of four head-and-shoulders portraits of the same character: a cheerful Vietnamese father in his late forties with short hair and small mustache, beige shirt. Expressions: top-left neutral, top-right laughing happy, bottom-left awkward worried, bottom-right impressed amazed. Same framing, same size, evenly spaced, not overlapping.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "pt_ba8",
+   "kind": "portrait",
+   "style": "portrait",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "Character expression sheet, 2 by 2 grid of four head-and-shoulders portraits of the same character: a kind chubby old Vietnamese woman in her sixties with grey hair bun, brown áo bà ba. Expressions: top-left friendly smile, top-right surprised concerned, bottom-left laughing, bottom-right neutral. Same framing, same size, evenly spaced, not overlapping.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "pt_nam",
+   "kind": "portrait",
+   "style": "portrait",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "Character expression sheet, 2 by 2 grid of four head-and-shoulders portraits of the same character: a skinny Vietnamese teenage boy (17) with spiky hair and a yellow tank top. Expressions: top-left neutral cheeky, top-right broke depressed pale, bottom-left overjoyed happy, bottom-right annoyed. Same framing, same size, evenly spaced, not overlapping.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "pt_thanhnien",
+   "kind": "portrait",
+   "style": "portrait",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "Character expression sheet, 2 by 2 grid of four head-and-shoulders portraits of the same character: a cocky Vietnamese young man (20) with dyed orange hair, sunglasses pushed up on his head, red hawaiian shirt. Expressions: top-left arrogant smirk, top-right laughing mocking, bottom-left shocked defeated, bottom-right annoyed. Same framing, same size, evenly spaced, not overlapping.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "pt_crowd",
+   "kind": "portrait",
+   "style": "portrait",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "Character expression sheet, 2 by 2 grid of four head-and-shoulders portraits of the same character: two friendly Vietnamese villagers: an old man with white beard and a young woman in a conical hat. Expressions: top-left old man talking, top-right young woman talking, bottom-left old man smiling, bottom-right young woman smiling. Same framing, same size, evenly spaced, not overlapping.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "pr_shards",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a scattered pile of broken white ceramic bowls and plates shards on the floor, top-down"
+  },
+  {
+   "id": "pr_shard_big",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "one large broken piece of a white ceramic plate with blue rim, top-down"
+  },
+  {
+   "id": "pr_debris",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "tiny broken ceramic debris fragments and dust scattered, top-down small"
+  },
+  {
+   "id": "pr_broom",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a traditional Vietnamese straw broom (chổi) leaning, with a plastic dustpan"
+  },
+  {
+   "id": "pr_trashbag",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a tied black garbage bag"
+  },
+  {
+   "id": "pr_dishes",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a stack of dirty plates and bowls"
+  },
+  {
+   "id": "pr_phone",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "an old candy-bar mobile phone (Nokia style, no logo) lying flat"
+  },
+  {
+   "id": "pr_notebook",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "a small worn brown leather notebook with a paper note sticking out"
+  },
+  {
+   "id": "pr_nest",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a straw chicken nest on the ground with brown eggs in it, top-down"
+  },
+  {
+   "id": "pr_nest_empty",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "an empty straw chicken nest on the ground, top-down"
+  },
+  {
+   "id": "pr_egg",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "a single brown chicken egg"
+  },
+  {
+   "id": "pr_grain",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a small woven bamboo basket full of golden rice grains (thóc)"
+  },
+  {
+   "id": "pr_shutter_closed",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "closed green wooden window shutters, front view, rectangular"
+  },
+  {
+   "id": "pr_door_closed",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a closed dark wooden door with a metal latch, front view"
+  },
+  {
+   "id": "pr_stools_stack",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "a messy pile of red and blue plastic stools knocked over"
+  },
+  {
+   "id": "pr_pothole",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a pothole in a dirt road, top-down"
+  },
+  {
+   "id": "pr_puddle",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a muddy water puddle on a road, top-down"
+  },
+  {
+   "id": "pr_motorbike",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "a Vietnamese man riding a scooter motorbike seen from straight above, heading down the screen"
+  },
+  {
+   "id": "pr_flycar",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "a sleek red electric sports car with tiny glowing hover jets, flying, seen from straight above, heading down the screen, no logos"
+  },
+  {
+   "id": "pr_chicken",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a small brown hen running, top-down"
+  },
+  {
+   "id": "pr_buffalo",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a grey water buffalo walking, seen from above"
+  },
+  {
+   "id": "pr_bicycle",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "an old black Vietnamese bicycle parked, side view"
+  },
+  {
+   "id": "pr_meat",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "green",
+   "aspect": "1:1",
+   "prompt": "a package of fresh pork belly and pork ribs wrapped in banana leaf and plastic bag"
+  },
+  {
+   "id": "pr_stone_dan",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a small smooth grey river pebble, top-down"
+  },
+  {
+   "id": "pr_stone_quan",
+   "kind": "prop",
+   "style": "sprite",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a large smooth dark green jade stone, top-down"
+  },
+  {
+   "id": "it_rice",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a white bowl of cooked white rice"
+  },
+  {
+   "id": "it_egg2",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "two brown chicken eggs"
+  },
+  {
+   "id": "it_garlic",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a whole garlic bulb and cloves"
+  },
+  {
+   "id": "it_scallion",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a bunch of green scallions (spring onions)"
+  },
+  {
+   "id": "it_oil",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a small plastic bottle of golden cooking oil"
+  },
+  {
+   "id": "it_fishsauce",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a glass bottle of Vietnamese fish sauce (nước mắm)"
+  },
+  {
+   "id": "it_pepper",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a small black pepper shaker"
+  },
+  {
+   "id": "it_beaten",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a bowl of beaten yellow egg with chopsticks"
+  },
+  {
+   "id": "it_chopped",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a small dish of minced garlic and chopped scallions"
+  },
+  {
+   "id": "it_friedrice",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a beautiful plate of golden Vietnamese egg fried rice with scallions, steaming"
+  },
+  {
+   "id": "it_burnt",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a plate of burnt black charred fried rice with smoke, comedic"
+  },
+  {
+   "id": "it_water",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a can of energy drink, no logo, bright blue"
+  },
+  {
+   "id": "it_money",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a few colorful Vietnamese dong banknotes, no readable text"
+  },
+  {
+   "id": "it_key",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "an old brass house key on a ring"
+  },
+  {
+   "id": "ic_heart",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a red pixel heart"
+  },
+  {
+   "id": "ic_energy",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a yellow lightning bolt"
+  },
+  {
+   "id": "ic_coin",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a gold coin"
+  },
+  {
+   "id": "ic_clock",
+   "kind": "icon",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "a small round alarm clock"
+  },
+  {
+   "id": "wok_states",
+   "kind": "sheet",
+   "style": "icon",
+   "bg": "magenta",
+   "aspect": "1:1",
+   "prompt": "Six wok cooking states in a 3 by 2 grid seen from straight above, same black wok in each: 1 wok with a little shiny oil, 2 oil with golden fried minced garlic, 3 yellow egg cooking, 4 scrambled egg with white rice, 5 perfect golden fried rice with green scallions, 6 burnt black smoking rice. Same size, evenly spaced, not overlapping."
+  },
+  {
+   "id": "cg_title",
+   "kind": "cg",
+   "style": "cg",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Key art for a cozy comedic cooking adventure game set in a Vietnamese village in summer: a teenage boy in a white t-shirt holding a wok and spatula proudly in the center, his mother with an arm cast behind him pointing sternly, his father laughing, two angry white geese chasing from the left, a small family rice shop with plastic stools, banana trees, golden sunset sky, leave empty space at the top center for the logo.",
+   "model": "xai/grok-imagine-image"
+  },
+  {
+   "id": "cg_mom_fall",
+   "kind": "cg",
+   "style": "cg",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Dramatic but comedic scene: a Vietnamese mother in a floral áo bà ba lying on a terracotta kitchen floor surrounded by broken bowls and plates, holding her right wrist in pain, her teenage son in a white t-shirt rushing in through the doorway shocked.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "cg_goose_lose",
+   "kind": "cg",
+   "style": "cg",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Comedic defeat scene: a teenage boy in a white t-shirt lying face down in a dirt backyard covered in feathers and bite marks, two triumphant white geese standing on his back honking, broken eggs around.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "cg_bike_crash",
+   "kind": "cg",
+   "style": "cg",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Comedic scene: a teenage boy flipped upside down with legs in the air in a muddy ditch beside a countryside dirt road, his old black bicycle tangled, a duck staring, rice paddies.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "cg_robbed",
+   "kind": "cg",
+   "style": "cg",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Comedic sad scene: the interior of a small Vietnamese house and rice shop completely emptied by thieves, only dust, a single plastic stool and a cobweb left, a teenage boy holding a bag of meat staring in disbelief, doors wide open.",
+   "model": "xai/grok-imagine-image"
+  },
+  {
+   "id": "cg_broom",
+   "kind": "cg",
+   "style": "cg",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Comedic scene: an angry Vietnamese mother with her right arm in a plaster cast, glowing red rage aura, has just thrown a straw broom which flies past the face of her terrified teenage son in a rice shop.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "cg_hospital",
+   "kind": "cg",
+   "style": "cg",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Comedic scene: a teenage boy lying dazed in a hospital bed with an IV drip, spiral eyes, his mother with an arm cast and his father sighing beside the bed, a plate of burnt fried rice on the side table.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "cg_good_end",
+   "kind": "cg",
+   "style": "cg",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Heartwarming scene: a teenage boy proudly presenting a plate of golden egg fried rice at a small Vietnamese family rice shop table, his mother with an arm cast smiling with tears of joy, his father amazed giving a thumbs up, warm evening light, lanterns.",
+   "model": "xai/grok-imagine-image"
+  },
+  {
+   "id": "cg_oanquan",
+   "kind": "cg",
+   "style": "cg",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Lively scene at a village folk festival: a teenage boy in a white t-shirt and his skinny friend in a yellow tank top crouched facing a cocky young man with dyed orange hair and red hawaiian shirt across a chalk o an quan board on the ground with pebbles, villagers watching, lanterns.",
+   "model": "xai/grok-imagine-image-pro"
+  },
+  {
+   "id": "cg_slipper",
+   "kind": "cg",
+   "style": "cg",
+   "bg": "none",
+   "aspect": "16:9",
+   "prompt": "Comedic scene: a Vietnamese mother with an arm cast throwing a plastic flip-flop slipper with her free hand at her son, the slipper flying with speed lines, son dodging.",
+   "model": "xai/grok-imagine-image-pro"
+  }
+ ]
+}

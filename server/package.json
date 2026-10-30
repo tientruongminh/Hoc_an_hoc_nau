@@ -1,0 +1,10 @@
+{
+  "name": "haohn-server",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node src/server.mjs",
+    "test": "node --test test/"
+  }
+}

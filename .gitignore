@@ -1,0 +1,25 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# deps / build
+node_modules/
+game/dist/
+server/data/
+*.db
+.npm-cache/
+*.log
+
+# raw AI outputs are reproducible from manifests (kept locally, not in git)
+art-source/raw/
+art-source/contact/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+__pycache__/
+*.pyc

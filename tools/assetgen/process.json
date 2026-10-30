@@ -1,0 +1,226 @@
+{
+ "s_kitchen": {
+  "scale": 0.5
+ },
+ "s_bedroom": {
+  "scale": 0.5
+ },
+ "s_front": {
+  "scale": 0.55
+ },
+ "s_momroom": {
+  "scale": 0.5
+ },
+ "s_garden": {
+  "scale": 0.62,
+  "void": false
+ },
+ "s_ba8": {
+  "scale": 0.55,
+  "void": false
+ },
+ "s_park": {
+  "scale": 0.66,
+  "void": false
+ },
+ "s_road": {
+  "scale": 0.6,
+  "void": false,
+  "crop": [
+   0,
+   330,
+   720,
+   1280
+  ]
+ },
+ "s_cooking": {
+  "scale": 0.34,
+  "void": false
+ },
+ "s_sink": {
+  "scale": 0.75,
+  "void": false,
+  "crop": [
+   300,
+   230,
+   980,
+   620
+  ]
+ },
+ "s_board": {
+  "h": 150,
+  "colors": 48
+ },
+ "ch_bike": {
+  "frames": [
+   0,
+   1,
+   2
+  ]
+ },
+ "pr_shards": {
+  "h": 22
+ },
+ "pr_shard_big": {
+  "h": 9
+ },
+ "pr_debris": {
+  "h": 10
+ },
+ "pr_broom": {
+  "h": 34
+ },
+ "pr_trashbag": {
+  "h": 18
+ },
+ "pr_dishes": {
+  "h": 16
+ },
+ "pr_phone": {
+  "h": 10
+ },
+ "pr_notebook": {
+  "h": 10
+ },
+ "pr_nest": {
+  "h": 16
+ },
+ "pr_nest_empty": {
+  "h": 16
+ },
+ "pr_egg": {
+  "h": 7
+ },
+ "pr_grain": {
+  "h": 14
+ },
+ "pr_shutter_closed": {
+  "h": 26
+ },
+ "pr_door_closed": {
+  "h": 40
+ },
+ "pr_stools_stack": {
+  "h": 22
+ },
+ "pr_pothole": {
+  "h": 18
+ },
+ "pr_puddle": {
+  "h": 20
+ },
+ "pr_motorbike": {
+  "h": 40
+ },
+ "pr_flycar": {
+  "h": 52
+ },
+ "pr_chicken": {
+  "h": 14
+ },
+ "pr_buffalo": {
+  "h": 44
+ },
+ "pr_bicycle": {
+  "h": 24
+ },
+ "pr_meat": {
+  "h": 16
+ },
+ "pr_stone_dan": {
+  "h": 7
+ },
+ "pr_stone_quan": {
+  "h": 14
+ },
+ "it_friedrice": {
+  "h": 48
+ },
+ "it_burnt": {
+  "h": 48
+ },
+ "ic_heart": {
+  "h": 14
+ },
+ "ic_energy": {
+  "h": 14
+ },
+ "ic_coin": {
+  "h": 14
+ },
+ "ic_clock": {
+  "h": 14
+ },
+ "wok_states": {
+  "h": 90,
+  "colors": 48
+ },
+ "pt_player": {
+  "names": [
+   "neutral",
+   "shock",
+   "smug",
+   "sad"
+  ]
+ },
+ "pt_mom": {
+  "names": [
+   "neutral",
+   "pain",
+   "angry",
+   "smile"
+  ]
+ },
+ "pt_dad": {
+  "names": [
+   "neutral",
+   "laugh",
+   "worried",
+   "amazed"
+  ]
+ },
+ "pt_ba8": {
+  "names": [
+   "smile",
+   "worried",
+   "laugh",
+   "neutral"
+  ]
+ },
+ "pt_nam": {
+  "names": [
+   "neutral",
+   "broke",
+   "happy",
+   "annoyed"
+  ]
+ },
+ "pt_thanhnien": {
+  "names": [
+   "smirk",
+   "laugh",
+   "shock",
+   "annoyed"
+  ]
+ },
+ "pt_crowd": {
+  "names": [
+   "oldman",
+   "woman",
+   "oldman_smile",
+   "woman_smile"
+  ]
+ },
+ "cg_title": {
+  "cropY": 0.0
+ },
+ "ch_goose": {
+  "h": 26
+ },
+ "ch_ba8": {
+  "h": 37
+ },
+ "ch_crowd1": {
+  "h": 39
+ }
+}
